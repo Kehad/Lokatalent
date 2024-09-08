@@ -3,13 +3,7 @@ import React from "react";
 
 function Layout(props) {
   
-  return (
-    <div
-      className=""
-    >
-      {props.children}
-    </div>
-  );
+  return <div className="text-white">{props.children}</div>;
 }
 
 export default Layout;

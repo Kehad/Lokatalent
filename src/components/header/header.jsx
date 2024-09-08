@@ -5,7 +5,7 @@ import Image3 from '../../assets/image-30.png';
 
 function Header() {
   return (
-    <div className="bg-[#3377FF] flex px-16 py-12">
+    <div className="bg-[#3377FF] flex px-16 py-12 text-white">
       <div className="flex gap-4 flex-col">
         <h6>WELCOME TO LOKATALENT</h6>
         <h1 className="font-nunito text-[73.02px] font-bold leading-[87.63px] text-left">
