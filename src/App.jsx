@@ -7,6 +7,7 @@ import Header from './components/header/header';
 // import "bootstrap/dist/css/bootstrap.min.css";
 import BasicButtonExample from './components/header/boot';
 import Works from './components/works/works';
+import Service from './components/service/service';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Nav/>
         <Header />
         <Works />
+        <Service />
       </Layout>
         
     </>

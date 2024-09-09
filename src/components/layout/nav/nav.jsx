@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <div className="bg-[#2659BF] px-16 py-8">
+    <div className="bg-[#2659BF] px-16 py-8 text-white">
       <div className="flex flex-rol justify-between items-center">
         <p>Lokatalent</p>
         <div>
