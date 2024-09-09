@@ -1,8 +1,8 @@
 .works {
   color: #000;
   text-align: center;
-  font-size: 24px;
-  padding-top: 40px;
+  font-size: 36px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 .lady {
@@ -30,7 +30,7 @@
   position: absolute;
 }
 .header {
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   font-weight: bold;
 }
@@ -38,46 +38,119 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
 }
 .layers {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: max-content;
-    padding: 1rem;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    position: absolute;
-    bottom: 20%;
-    left: -25%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  bottom: 20%;
+  left: -25%;
 }
 .layer_box {
-     background: #2A4AF480;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 0.5rem;
-     border-radius: 50%;
-     -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-     -ms-border-radius: 50%;
-     -o-border-radius: 50%;
-     margin-right: 0.5rem;
+  background: #2a4af480;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 0.5rem;
 }
 .text1,
 .text2 {
-    font-size: 16px;
-    text-align: left;
-    line-height: 20.63px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 20.63px;
 }
 .text2 {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 .text-box {
-    padding-right: 2rem;
+  padding-right: 2rem;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 1.5rem;
+}
+.items-box {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.items-1 p {
+  background: #3377ff;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-family: Gilroy; */
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+.items-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: normal;
+  line-height: 29px;
+
+}
+.items-text1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.items-text2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.button-box {
+  margin-top: 2rem;
+  text-align: left;
+}
+.booking {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #3377ff;
+  padding: 1rem 2.5rem;
+  width: max-content;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
