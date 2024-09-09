@@ -6,6 +6,7 @@ import Nav from './components/layout/nav/nav';
 import Header from './components/header/header';
 // import "bootstrap/dist/css/bootstrap.min.css";
 import BasicButtonExample from './components/header/boot';
+import Works from './components/works/works';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Layout>
         <Nav/>
         <Header />
+        <Works />
       </Layout>
         
     </>
