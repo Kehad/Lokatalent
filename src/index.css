@@ -18,11 +18,9 @@
 @tailwind utilities;
 
 .text {
-font-family: Nunito Sans;
-font-size: 73.02px;
-font-weight: 700;
-line-height: 87.63px;
-text-align: left;
+height: 75%;
+width: 100%;
+object-fit: cover;
 
 
 }

@@ -7,15 +7,15 @@ function Nav() {
           <nav>
             <ul className="flex list-none gap-[35px]">
               <li className="">
-                <a href="#">Login</a>
+                <a href="#">Log In</a>
               </li>
               <li>
-                <a href="#">Signup</a>
+                <a href="#">Sign Up</a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="p-4 border-white border-2 rounded "
+                  className="px-4 py-[10px] border-white border-2 rounded "
                 >
                   Register as a talent
                 </a>

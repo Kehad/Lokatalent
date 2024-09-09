@@ -14,7 +14,6 @@ function App() {
       <Layout>
         <Nav/>
         <Header />
-        <BasicButtonExample />
       </Layout>
         
     </>
