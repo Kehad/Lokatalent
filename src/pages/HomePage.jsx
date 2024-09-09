@@ -1,6 +1,6 @@
 import Footer from "../components/HomePageComponenent/footer/footer";
 import Header from "../components/HomePageComponenent/header/header";
-import Service from "../components/HomePageComponenent/service/service";
+import Service from "../components/HomePageComponenent/serviced/serviced";
 import Testimonial from "../components/HomePageComponenent/testimonial/testimonial";
 import Works from "../components/HomePageComponenent/works/works";
 
