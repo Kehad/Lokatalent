@@ -18,8 +18,6 @@
 }
 .imgBox {
   position: relative;
-  /* overflow: hidden; */
-  /* background-color: #68d585; */
 }
 .imgContainer {
   top: 10%;
@@ -95,7 +93,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.items-1 p {
+.items-1 a {
   background: #3377ff;
   color: #fff;
   border-radius: 50%;
