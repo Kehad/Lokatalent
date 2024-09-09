@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonial.css'
+// import './testimonial.css'
 
 function Testimonialcard() {
   return (
@@ -29,10 +29,10 @@ function Testimonialcard() {
         >
           Apply as a Talent
         </a> */}
-      <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds">
+      <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white w-[250px] h-[70px] rounded">
         Apply here
       </button>
-      <button className="font-nunito text-xl text-white font-normal leading-6 testi-button buttonds">
+      <button className="font-nunito text-xl text-white font-normal leading-6 testi-button w-[250px] h-[70px] rounded">
         Apply as a talent
       </button>
       </div>

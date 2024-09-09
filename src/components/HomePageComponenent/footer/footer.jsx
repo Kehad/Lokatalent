@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ig from "../../assets/ig.png";
-import x from "../../assets/x.png";
-import fb from "../../assets/fb.png";
-import "./footer.css";
+import ig from "../../../assets/ig.png";
+import x from "../../../assets/x.png";
+import fb from "../../../assets/fb.png";
+// import "./footer.css";
 
 function Footer() {
   return (
     <div className="bg-[#3377ff] px-[7rem] text-white flex flex-col gap-8 py-20">
       <div>
-        <div className="   ">
+        <div className="  ">
           <div className="flex flex-rol justify-between items-center">
             <p>Lokatalent</p>
             <div>
@@ -37,7 +37,9 @@ function Footer() {
           <img src={x} alt="X" />
           <img src={fb} alt="Facebook" />
         </div>
-        <p className="footer-text">Have any questions? reach out to us</p>
+        <p className="font-nunito text-2xl font-extrabold tracking-tighter text-right uppercase">
+          Have any questions? reach out to us
+        </p>
         <div className="flex justify-between mt-12">
           <p>2024 Lokatalent. All Rights Reserved</p>
           <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds">
