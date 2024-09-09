@@ -1,7 +1,7 @@
 import React from "react";
 import lady from "../../assets/lady.png";
 import layers from "../../assets/ic_layers_48px.png";
-import "./works.css";
+// import "./works.css";
 
 function Works() {
   return (

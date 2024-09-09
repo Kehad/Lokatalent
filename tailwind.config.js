@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         nunito: ['"Nunito Sans"', "sans-serif"],
+        raleway: ['"Raleway"', "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/bg-service2.png')",

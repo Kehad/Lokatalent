@@ -1,0 +1,51 @@
+.header {
+    font-family: Raleway;
+font-size: 20px;
+font-weight: 600;
+line-height: 23.48px;
+text-align: left;
+color: #2A4AF4;
+
+
+}
+
+.title {
+    font-family: Raleway;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px;
+text-align: left;
+
+}
+.img-container {
+    display: flex;
+    gap: 1rem;
+}
+.imges-box {
+    width: 400px;
+    height: 350px;
+}
+.images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.crumbs {
+    width: 20px;
+    background-color: #2A4AF4;
+    height: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.crumb {
+    display: flex;
+    gap:0.5rem;
+    align-self: center;
+}
+.crumb2 {
+    background: #3377FF5E;
+
+}
