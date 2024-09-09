@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div className="bg-[#2659BF] px-16 py-8 text-white">
+    <div className="bg-[#2659BF] px-[7rem] py-8 text-white">
       <div className="flex flex-rol justify-between items-center">
         <p>Lokatalent</p>
         <div>

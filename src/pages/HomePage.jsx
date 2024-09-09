@@ -1,3 +1,4 @@
+import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import Service from "../components/service/service";
 import Testimonial from "../components/testimonial/testimonial";
@@ -11,6 +12,7 @@ function HomePage() {
         <Works />
         <Service />
         <Testimonial />
+        <Footer />
     </>
   );
 }

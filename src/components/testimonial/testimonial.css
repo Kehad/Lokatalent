@@ -49,3 +49,11 @@ text-align: left;
     background: #3377FF5E;
 
 }
+.testi-button {
+    border: 1px solid #fff;
+}
+.buttonds {
+    width: 250px;
+    border-radius: 5px;
+    height: 70px;
+}

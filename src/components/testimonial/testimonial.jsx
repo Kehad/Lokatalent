@@ -3,6 +3,7 @@ import './testimonial.css'
 import image1 from "../../assets/testimonial-img1.png";
 import image2 from "../../assets/testimonial-img2.png";
 import image3 from "../../assets/testimonial-img3.png";
+import Testimonialcard from "./testimonial-card";
 
 function Testimonial() {
   return (
@@ -28,7 +29,9 @@ function Testimonial() {
           <div className="crumbs crumb2"></div>
         </div>
       </div>
-      <div className="testimonial-card"></div>
+          <div className="testimonial-card">
+            <Testimonialcard />
+      </div>
     </div>
   );
 }
