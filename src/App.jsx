@@ -1,27 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/layout';
-import Nav from './components/layout/nav/nav';
-import Header from './components/header/header';
-// import "bootstrap/dist/css/bootstrap.min.css";
-import BasicButtonExample from './components/header/boot';
-import Works from './components/works/works';
-import Service from './components/service/service';
+import Nav from './components/nav/nav';
+import HomePage from './pages/HomePage';
 
 function App() {
 
   return (
     <>
       <Layout>
-        <Nav/>
-        <Header />
-        <Works />
-        <Service />
-      </Layout>
+        <Nav />
         
+        <Routes>
+          <Route index element={<HomePage />} />
+        </Routes>
+      </Layout>
     </>
   );
 }
 
 export default App
+
+

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
   return (
     <div className="bg-[#2659BF] px-16 py-8 text-white">
@@ -7,18 +9,19 @@ function Nav() {
           <nav>
             <ul className="flex list-none gap-[35px]">
               <li className="">
-                <a href="#">Log In</a>
+                <Link to="/login">Log In</Link>
               </li>
               <li>
-                <a href="#">Sign Up</a>
+                <Link to="/signup">Sign Up</Link>
               </li>
               <li>
-                <a
-                  href="#"
+                
+                <Link
+                  to="/register"
                   className="px-4 py-[10px] border-white border-2 rounded "
                 >
                   Register as a talent
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
