@@ -46,7 +46,7 @@ function VerifiedPage({ content }) {
           </div>
           <div className="flex justify-center gap-8">
             <Link
-              to="./verified"
+              to="/"
               className="font-nunito text-[14px] !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[20rem] rounded h-12 flex items-center justify-center"
             >
               Proceed to Dashboard

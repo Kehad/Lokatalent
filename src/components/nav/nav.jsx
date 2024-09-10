@@ -9,10 +9,10 @@ function Nav() {
           <nav>
             <ul className="flex list-none gap-[35px]">
               <li className="">
-                <Link to="/login">Log In</Link>
+                <Link to="/login" className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150" >Log In</Link>
               </li>
               <li>
-                <Link to="/signup">Sign Up</Link>
+                <Link to="/signup" className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150" >Sign Up</Link>
               </li>
               <li>
                 

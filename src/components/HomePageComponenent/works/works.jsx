@@ -5,7 +5,7 @@ import layers from "../../../assets/ic_layers_48px.png";
 
 function Works() {
   return (
-    <div className="text-black text-center text-[36px] pt-20 pb-10">
+    <div className="text-black text-center text-[36px] pt-20 pb-[5rem]">
       <h1 className="text-[48px] text-center font-bold">How it works</h1>
       <div className="flex items-center justify-center gap-16 mt-16">
         <div className="relative">
