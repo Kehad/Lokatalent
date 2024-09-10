@@ -1,18 +1,11 @@
-import React from "react";
-import './SignUpDetails.css';
+import "./detailsPageComp.css";
 import { Link } from "react-router-dom";
 
-function DetailsPage() {
+function DetailsPageComp() {
   return (
-    <div className="px-[7rem] pt-12 flex justify-cnter flex-col items-cener gap-12 !bg-[#FAF8F4]">
+    <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4]">
       <div className="flex justify-center relative">
-        <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
-          {/* <button className="absolue signup-button w-%]">&</button> */}
-          {/* <img
-            src={left}
-            alt="Back button"
-            className="absolue signup-button w-%]"
-          /> */}
+        <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">         
           <Link to="/signup">
             <svg
               width="35"
@@ -76,8 +69,13 @@ function DetailsPage() {
           </form>
         </div>
       </div>
+      <div className="flex justify-center">
+        <Link to="./email" className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[35rem] rounded h-12 flex items-center justify-center">
+          Submit
+        </Link>
+      </div>
     </div>
   );
 }
 
-export default DetailsPage;
+export default DetailsPageComp;

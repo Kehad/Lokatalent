@@ -1,5 +1,4 @@
-import React from "react";
-import SignUp from "../components/signup/signup";
+import SignUp from "../components/signupComponent/signup";
 
 function SignUpPage() {
     return (
