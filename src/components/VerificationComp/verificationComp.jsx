@@ -1,9 +1,16 @@
+/* eslint-disable react/prop-types */
 import "./emailComp.css";
+import mail from '../../assets/mail.png'
 import { Link } from "react-router-dom";
 
-function EmailComp() {
+function VerificationComp({ content }) {
+  console.log(content);
+
+  // const to = content.halfName.toLowerCase()
+  
   return (
-    <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4]">
+  <>
+  <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4]">
       <div className="flex justify-center relative">
         <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
           <Link to="/signup/signup-details/">
@@ -27,13 +34,16 @@ function EmailComp() {
 
         <div>
           <h4 className="font-nunito text-4xl font-bold leading-[50.4px] tracking-tighter text-center">
-            Email verification
+            {content.halfName} verification
           </h4>
           <p className="font-nunito text-xl text-center">
-            Enter the six digit code we sent to your email address <br /> to
+            Enter the six digit code we sent to your {content.fullName} <br /> to
             verify your account
           </p>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <img src={content.logo} alt="Email logo" />
       </div>
       <div className="flex gap-4 items-center justify-center">
         <div>
@@ -80,13 +90,14 @@ function EmailComp() {
       </div>
       <div className="flex justify-center gap-8">
         <Link
-          to="/signup/signup-details/number"
+          to={`/signup/signup-details/${content.altHalfName.toLowerCase()}`}
+
           className="font-nunito text-[14px] !text-[#605dec] bg-[#f6f5ff] border-[#605dec] border-2 font-normal leading-6 w-[15rem] rounded h-12 flex items-center justify-center"
         >
-          Verify Phone Number Instead
+          Verify {content.altHalfName} Instead
         </Link>
         <Link to="./verified" className="font-nunito text-[14px] !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[15rem] rounded h-12 flex items-center justify-center">
-          Verify Email
+          Verify
         </Link>
       </div>
       <div className="flex justify-center text ">
@@ -94,7 +105,8 @@ function EmailComp() {
         <span className="span"> Resend Code</span>
       </div>
     </div>
+  </>
   );
 }
 
-export default EmailComp;
+export default VerificationComp;
