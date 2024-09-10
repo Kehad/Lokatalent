@@ -1,6 +1,3 @@
-/* eslint-disable react/prop-types */
-import "./emailComp.css";
-import mail from '../../assets/mail.png'
 import { Link } from "react-router-dom";
 
 function VerificationComp({ content }) {
@@ -102,9 +99,9 @@ function VerificationComp({ content }) {
             Verify
           </Link>
         </div>
-        <div className="flex justify-center text ">
+        <div className="flex justify-center text text-center font-sans text-[20px] font-bold leading-[30px] ">
           Didn’t get a code?
-          <span className="span"> Resend Code</span>
+          <span className="text-[#3377FF]"> Resend Code</span>
         </div>
       </div>
     </>

@@ -42,7 +42,7 @@ function Footer() {
         </p>
         <div className="flex justify-between mt-12">
           <p>2024 Lokatalent. All Rights Reserved</p>
-          <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds">
+          <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds w-[14rem] h-[3rem]">
             Contact Us
           </button>
         </div>

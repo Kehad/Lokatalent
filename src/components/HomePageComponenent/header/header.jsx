@@ -17,16 +17,19 @@ function Header() {
           <br />
           consectetur adipiscing commodo euismod condimentum <br /> nunc.
         </p>
-        <div>
-          <input type="text" placeholder="What service do you need?" />
-          <button>&search;</button>
-        </div>
+
         <BasicButtonExample />
 
-        <p className="font-nunito text-base font-normal leading-7 text-left opacity-80">
-          Want to sign up as a service provider?{" "}
-          <span className="!opacity-100 text-white">Apply Here</span>
-        </p>
+        <div className="flex gap-[2px]">
+          <p className="font-nunito text-base font-normal leading-7 text-left opaciy-70">
+            Want to sign up as a service provider?
+          </p>
+          <span className="opacity-100 text-white underline underline-offset-8">
+            Apply Here
+          </span>
+        </div>
+
+
       </div>
       <div className="h-[500px] w-[482px] relative">
         <div>

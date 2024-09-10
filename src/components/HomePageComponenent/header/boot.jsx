@@ -1,5 +1,6 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import './boor.css';
 
 function BasicButtonExample() {
      const toggleStyle = {
@@ -8,16 +9,25 @@ function BasicButtonExample() {
        width: "100%",
      };
   return (
-    <DropdownButton
-      className="bg-transparent bg-red-600"
-      id="dropdown-basic-button"
-      title="Dropdown butston"
-    >
-      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-    </DropdownButton>
+    <div className="">
+    
+    <div className="component-select">
+      <select id="component-select" className="component-select">
+
+        <option value="" selected>
+          What service do you need
+        </option>
+        <option value="" selected>
+         Student
+        </option>
+        <option value="" selected>
+          Teacher
+        </option>
+      </select>
+    </div>
+    </div>
   );
 }
 
 export default BasicButtonExample;
+
