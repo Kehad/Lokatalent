@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
-    <div className="px-[7rem] pt-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] ">
+    <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] ">
       <div className="flex justify-center relative">
         <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
           {/* <button className="absolue signup-button w-%]">&</button> */}

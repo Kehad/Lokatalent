@@ -54,12 +54,15 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/signup" element={<SignUpPage />} />
-          <Route path="/signup/signup-details" element={<DetailsPage/>} />
-          <Route path="/signup/signup-details/email" element={<VerificationPage content={content} />} />
-          <Route path="/signup/signup-details/phone" element={<VerificationPage content={content} />} />
+          <Route path="/signup/signup-details/" element={<DetailsPage />} />
           <Route
-            path="/signup/signup-details/email/verified"
-            element={<VerifiedPage />}
+            path={`/signup/signup-details/${content.halfName.toLowerCase()}`}
+            element={<VerificationPage content={content} />}
+          />
+          {/* <Route path="/signup/signup-details/phone" element={<VerificationPage content={content} />} /> */}
+          <Route
+            path={`/signup/signup-details/${content.halfName.toLowerCase()}/verified`}
+            element={<VerifiedPage content={content} />}
           />
         </Routes>
       </Layout>
