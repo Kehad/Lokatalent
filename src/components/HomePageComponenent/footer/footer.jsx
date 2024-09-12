@@ -8,7 +8,7 @@ import fb from "../../../assets/fb.png";
 function Footer() {
   //px-[7rem]
   return (
-    <div className="bg-[#3377ff] px-[5rem] text-white flex flex-col gap-8 py-20">
+    <div className="bg-[#3377ff] px-[2rem] sm:px-[3rem] md:px-[4rem] px-[5rem] text-white flex flex-col gap-8 py-20">
       <div>
         <div className="  ">
           <div className="flex flex-rol justify-between items-center">
@@ -41,11 +41,9 @@ function Footer() {
         <p className="font-nunito md:text-normal lg:text-2xl font-extrabold tracking-tighter text-right uppercase">
           Have any questions? reach out to us
         </p>
-        <div className="flex justify-between mt-12">
+        <div className="flex justify-between flex-col-reverse sm:flex-row md:flex-row lg:flew-row gap-4 sm:gap-0 md:gap-0 lg:gap-0 mt-12">
           <p>2024 Lokatalent. All Rights Reserved</p>
-          <button
-            className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds w-[12rem] h-[2.5rem] lg:w-[14rem] lg:h-[3rem]"
-          >
+          <button className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white buttonds w-[12rem] h-[2.5rem] lg:w-[14rem] lg:h-[3rem]">
             Contact Us
           </button>
         </div>

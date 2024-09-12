@@ -6,7 +6,7 @@ function Nav() {
   function trueMenuHandler() { }
   // px-[7rem]
   return (
-    <div className="bg-[#2659BF] px-[5rem] py-8 text-white">
+    <div className="bg-[#2659BF] px-[2rem] sm:px-[3rem] md:px-[3rem] lg:px-[5rem] py-8 text-white">
       <div className="flex flex-row justify-between items-center">
         <p>Lokatalent</p>
         <div>
