@@ -2,7 +2,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import './boor.css';
 
-function BasicButtonExample() {
+function DrowDownElement() {
      const toggleStyle = {
        backgroundColor: "bg-red-500",
        border: "1px solid #ccc",
@@ -29,5 +29,5 @@ function BasicButtonExample() {
   );
 }
 
-export default BasicButtonExample;
+export default DrowDownElement;
 
