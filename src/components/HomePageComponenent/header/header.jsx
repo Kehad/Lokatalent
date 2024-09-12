@@ -6,7 +6,7 @@ import DropDownElement from "./boot";
 
 function Header() { 
   return (
-    <div className="bg-[#3377FF] flex text-white sm:flex-col py-12 px-[2rem] sm:px-[2rem] px-[5rem] md:flex-ol sm:gap-8 md:gap-4 lg:flex-row">
+    <div className="bg-[#3377FF] flex text-white sm:flex-col py-12 px-[2rem] sm:px-[2rem] lg:px-[5rem] md:flex-ol sm:gap-8 md:gap-4 lg:flex-row">
       <div className="flex gap-4 flex-col">
         <h6 className="opacity-[80%]">WELCOME TO LOKATALENT</h6>
         <h1 className="font-nunito font-bold text-left sm:text-[40px] md:text-[60px] lg:text-[73.02px] lg:leading-[80.63px]">
