@@ -7,12 +7,12 @@ import Testimonialcard from "./testimonial-card";
 
 function Testimonial() { //px-16
   return (
-    <div className="py-24 px-[5rem] flex flex-col gap-8">
+    <div className="py-10 sm:py-24 md:py-24 lg:py-24 px-[2rem] sm:px-[2rem] px-[5rem] flex flex-col gap-8">
       <h3 className="font-raleway text-lg font-semibold leading-[23.48px] text-left text-[#2A4AF4]">
         TESTIMONIAL
       </h3>
 
-      <h1 className="font-raleway font-bold md:text-5xl md:leading-[60px] lg:text-6xl lg:leading-[70px] text-left">
+      <h1 className="font-raleway font-bold text-2xl  sm:text-3xl md:text-5xl md:leading-[60px] lg:text-6xl lg:leading-[70px] text-left">
         What Customers Say <br />
         About Us
       </h1>

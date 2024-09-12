@@ -6,10 +6,10 @@ import DropDownElement from "./boot";
 
 function Header() { 
   return (
-    <div className="bg-[#3377FF] flex px-[5rem] py-12 text-white flex-col md:flex-col md:gap-4 lg:flex-row">
+    <div className="bg-[#3377FF] flex text-white flex-col py-12 sm:px-[2rem] px-[5rem] md:flex-col sm:gap-8 md:gap-4 lg:flex-row">
       <div className="flex gap-4 flex-col">
         <h6 className="opacity-[80%]">WELCOME TO LOKATALENT</h6>
-        <h1 className="font-nunito font-bold text-left md:text-[60px] lg:text-[73.02px] lg:leading-[80.63px]">
+        <h1 className="font-nunito font-bold text-left sm:text-[40px] md:text-[60px] lg:text-[73.02px] lg:leading-[80.63px]">
           Quality Home Service On Demand
         </h1>
         <p className="font-nunito text-base font-normal leading-7 text-left opacity-[80%] lg:w-[70%]">
