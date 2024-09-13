@@ -8,7 +8,7 @@ function VerifiedPage({ content }) {
   console.log(content);
   return (
     <>
-      <div className="px-[7rem] py-12 flex justify-center flex-col items-cener gap-12 bg-[#FAF8F4]">
+      <div className="px-[2rem] sm:px-[4rem] md:px-[5.5rem] lg:px-[7rem] h-screen py-12 flex justify-center flex-col items-cener gap-12 bg-[#FAF8F4]">
         <div className="flex flex-col justify-center relative">
           <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
             <Link

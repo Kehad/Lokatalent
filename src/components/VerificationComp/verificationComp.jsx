@@ -7,7 +7,7 @@ function VerificationComp({ content }) {
   
   return (
     <>
-      <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] h-sc">
+      <div className="px-[2rem] sm:px-[4rem] md:px-[5.5rem] lg:px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] h-sc">
         <div className="flex justify-center relative">
           <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
             <Link to="/signup/signup-details/">
@@ -120,21 +120,21 @@ function VerificationComp({ content }) {
             </form>
           </div>
         </div>
-        <div className="flex justify-center gap-8">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-8 lg:gap-8">
           <Link
             to={`/signup/signup-details/${content.altHalfName.toLowerCase()}`}
-            className="font-nunito text-[14px] !text-[#605dec] bg-[#f6f5ff] border-[#605dec] border-2 font-normal leading-6 w-[15rem] rounded h-12 flex items-center justify-center"
+            className="font-nunito text-[14px] !text-[#605dec] bg-[#f6f5ff] border-[#605dec] border-2 font-normal leading-6 w-[15rem] sm:w-[15rem] md:w-[15rem] lg:w-[15rem] rounded h-12 flex items-center justify-center"
           >
             Verify {content.altHalfName} Instead
           </Link>
           <Link
             to="./verified"
-            className="font-nunito text-[14px] !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[15rem] rounded h-12 flex items-center justify-center"
+            className="font-nunito text-[14px] !text-[#fff] bg-[#3377FF]  font-normal leading-6 w-[15rem] sm:w-[15rem] md:w-[15rem] lg:w-[15rem] rounded h-12 flex items-center justify-center"
           >
             Verify
           </Link>
         </div>
-        <div className="flex justify-center text text-center font-sans text-[20px] font-bold leading-[30px] ">
+        <div className="flex justify-center text text-center font-sans text-[15px] sm:text-[15px] md:text-[20px] lg:text-[20px] font-bold leading-[30px] ">
           Didn’t get a code?
           <span className="text-[#3377FF]"> Resend Code</span>
         </div>

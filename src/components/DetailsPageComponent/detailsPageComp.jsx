@@ -93,7 +93,7 @@ function DetailsPageComp() {
       <div className="flex justify-center">
         <Link
           to="./email"
-          className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[35rem] rounded h-12 flex items-center justify-center"
+          className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[20rem] sm:w-[30rem] md:w-[32rem] lg:w-[35rem] rounded h-12 flex items-center justify-center"
         >
           Submit
         </Link>
