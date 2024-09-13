@@ -1,5 +1,6 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 // import "./boor.css";
 
 function DrowDownElement() {
@@ -9,7 +10,7 @@ function DrowDownElement() {
     width: "100%",
   };
   return (
-    <div className="flex">
+    <div className="flex gap-2">
       <div className="relative inline-block w-[20rem]">
         <select
           id="component-select"
@@ -30,7 +31,7 @@ function DrowDownElement() {
           <div className="w-0 h-0 border-l-[5px] border-r-[5px] border-t-[5px] border-l-transparent border-r-transparent border-t-white"></div>
         </div>
       </div>
-      <div></div>
+      <div className="bg-[#ede8e8] h-10 w-10 rounded flex items-center justify-center"><SearchOutlinedIcon className="text-black" /></div>
     </div>
   );
 }
