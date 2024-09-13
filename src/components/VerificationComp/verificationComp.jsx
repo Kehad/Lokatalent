@@ -47,40 +47,75 @@ function VerificationComp({ content }) {
             <form className="flex gap-4">
               <div className="">
                 <input
-                  type="text"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
               </div>
               <div className="">
                 <input
-                  type="text"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
               </div>
               <div className="">
                 <input
-                  type="email"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
               </div>
               <div className="h-1 w-2 bg-black self-center"></div>
               <div className="">
                 <input
-                  type="text"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
               </div>
               <div className="">
                 <input
-                  type="text"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
               </div>
               <div className="">
                 <input
-                  type="password"
-                  className="w-12 h-12 flex items-center justify-center"
+                  type="number"
+                  min={1}
+                  max={9}
+                  maxLength={1}
+                  onInput={(e) => (e.target.value = e.target.value.slice(0, 1))}
+                  className="appearance:none p-[0.6rem] flex items-center justify-center border-2 border-[#3377ff] text-[#3377ff]"
                 />
+                <style jsx>{`
+                  input[type="number"]::-webkit-outer-spin-button,
+                  input[type="number"]::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                  }
+
+                  input[type="number"] {
+                    -moz-appearance: textfield;
+                  }
+                `}</style>
               </div>
             </form>
           </div>
