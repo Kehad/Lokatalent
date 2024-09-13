@@ -1,14 +1,8 @@
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-// import "./boor.css";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined"; 
+
 
 function DrowDownElement() {
-  const toggleStyle = {
-    backgroundColor: "bg-red-500",
-    border: "1px solid #ccc",
-    width: "100%",
-  };
+
   return (
     <div className="flex gap-2">
       <div className="relative inline-block w-[20rem]">

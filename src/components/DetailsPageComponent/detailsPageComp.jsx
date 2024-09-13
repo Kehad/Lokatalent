@@ -1,4 +1,3 @@
-// import "./detailsPageComp.css";
 import { Link } from "react-router-dom";
 
 function DetailsPageComp() {

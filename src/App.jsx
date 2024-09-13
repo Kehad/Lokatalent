@@ -6,7 +6,6 @@ import Nav from "./components/nav/nav";
 import HomePage from "./pages/HomePage";
 import SignUpPage from "./pages/signUpPage";
 import DetailsPage from "./pages/DetailsPage";
-// import EmailPage from "./pages/VerificationPage";
 import VerifiedPage from "./pages/VerifiedPage";
 import VerificationPage from "./pages/VerificationPage";
 

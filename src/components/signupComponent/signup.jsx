@@ -1,7 +1,4 @@
-import React from "react";
 import user from "../../assets/user.png";
-import left from "../../assets/left.png";
-// import "./signup.css";
 import { Link } from "react-router-dom";
 
 function SignUp() {
@@ -9,12 +6,7 @@ function SignUp() {
     <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] ">
       <div className="flex justify-center relative">
         <div className="self-start cursor-pointer absolute top-[1%] left-[-21%] sm:left-[1%] md:left-[1%] lg:left-[1%] h-12 w-12">
-          {/* <button className="absolue signup-button w-%]">&</button> */}
-          {/* <img
-            src={left}
-            alt="Back button"
-            className="absolue signup-button w-%]"
-          /> */}
+          
           <Link to="/">
             <svg
               width="35"

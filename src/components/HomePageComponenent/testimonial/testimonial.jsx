@@ -1,5 +1,3 @@
-import React from "react";
-// import './testimonial.css'
 import image1 from "../../../assets/testimonial-img1.png";
 import image2 from "../../../assets/testimonial-img2.png";
 import image3 from "../../../assets/testimonial-img3.png";

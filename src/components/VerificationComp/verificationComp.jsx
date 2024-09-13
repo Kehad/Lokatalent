@@ -1,9 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 function VerificationComp({ content }) {
   console.log(content);
 
-  // const to = content.halfName.toLowerCase()
   
   return (
     <>

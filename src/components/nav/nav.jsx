@@ -14,8 +14,7 @@ const NavLinks = () => {
       <ul className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row list-none gap-[35px]">
         <li className="">
           <NavLink
-            to="/login"
-            // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
+            to="/login"            
             className={({ isActive }) =>
               isActive
                 ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
@@ -28,7 +27,6 @@ const NavLinks = () => {
         <li>
           <NavLink
             to="/signup"
-            // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
             className={({ isActive }) =>
               isActive
                 ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
@@ -132,7 +130,6 @@ function Nav() {
                   <li className="">
                     <NavLink
                       to="/login"
-                      // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
                       className={({ isActive }) =>
                         isActive
                           ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
@@ -145,7 +142,6 @@ function Nav() {
                   <li>
                     <NavLink
                       to="/signup"
-                      // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
                       className={({ isActive }) =>
                         isActive
                           ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
@@ -157,8 +153,7 @@ function Nav() {
                   </li>
                   <li>
                     <NavLink
-                      to="/register"
-                      
+                      to="/register"                   
                       className={({ isActive }) =>
                         isActive
                           ? "bg-white text-[#2659BF] decoration-2 px-4 py-[10px] border-white border-2 rounded"

@@ -1,5 +1,4 @@
 import React from 'react'
-// import './testimonial.css'
 
 function Testimonialcard() {
   return (
@@ -16,18 +15,7 @@ function Testimonialcard() {
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 md:mt-0 lg:mt-0  gap-8">
-        {/* <a
-          href="#"
-          className="font-nunito text-xl !text-[#3377FF] font-normal leading-6 bg-white  py-6 px-20 w-max text-white  inline-block rounded-[5px]"
-        >
-          Apply Here
-        </a>
-        <a
-          href="#"
-          className="font-nunito text-xl text-white font-normal leading-6   py-6 px-20 w-max text-white  inline-block rounded-[5px] testi-button"
-        >
-          Apply as a Talent
-        </a> */}
+  
         <button className="font-nunito text-base sm:text-xl md:text-xl lg:text-xl !text-[#3377FF] font-normal leading-6 bg-white border-2 border-white w-[100px] h-[40px] sm:w-[160px] sm:h-[60px] md:w-[200px] md:h-[60px] lg:w-[250px] lg:h-[70px] rounded">
           Apply here
         </button>

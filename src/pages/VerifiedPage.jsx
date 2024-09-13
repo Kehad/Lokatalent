@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// import "./VerifiedPage.css";
 import mark from "../assets/mark.png";
 import { Link } from "react-router-dom";
 
