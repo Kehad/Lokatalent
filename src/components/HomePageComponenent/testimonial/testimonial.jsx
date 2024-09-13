@@ -18,14 +18,14 @@ function Testimonial() { //px-16
       </h1>
 
       <div className="Imageslide flex flex-col gap-8">
-        <div className="flex gap-4">
-          <div className="md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
+        <div className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4 ">
+          <div className="w-[250px] h-[200px] md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
             <img src={image1} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
+          <div className="w-[250px] h-[200px] md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
             <img src={image2} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
+          <div className="w-[250px] h-[200px] md:w-[350px] md:h-[300px] lg:w-[400px] lg:h-[350px]">
             <img src={image3} alt="" className="w-full h-full object-cover" />
           </div>
         </div>

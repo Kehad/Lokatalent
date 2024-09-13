@@ -29,7 +29,7 @@ function Works() {
           </div>
         </div>
         <div className="flex flex-col  md:w-[450px] lg:w-[500px] gap-6">
-          <div className="flex gap-4 justify-between items-start">
+          <div className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4 justify-between items-start">
             <div className="">
               <p className="bg-[#3377ff] text-white rounded-full flex items-center justify-center text-[17px] font-bold leading-[29px] tracking-[-0.2px] text-center h-[25px] w-[25px] sm:h-[25px] sm:w-[25px] md:h-[25px] md:w-[25px] lg:h-[35px] lg:w-[35px] mt-2 mr-2">
                 1
@@ -43,7 +43,7 @@ function Works() {
               </p>
             </div>
           </div>
-          <div className="flex gap-4 justify-between items-start">
+          <div className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4 justify-between items-start">
             <div className="">
               <p className="bg-[#3377ff] text-white rounded-full flex items-center justify-center text-[17px] font-bold leading-[29px] tracking-[-0.2px] text-center h-[25px] w-[25px] sm:h-[25px] sm:w-[25px] md:h-[25px] md:w-[25px] lg:h-[35px] lg:w-[35px] mt-2 mr-2">
                 1
@@ -57,7 +57,7 @@ function Works() {
               </p>
             </div>
           </div>
-          <div className="flex gap-4 justify-between items-start">
+          <div className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4 justify-between items-start">
             <div className="">
               <p className="bg-[#3377ff] text-white rounded-full flex items-center justify-center text-[17px] font-bold leading-[29px] tracking-[-0.2px] text-center h-[25px] w-[25px] sm:h-[25px] sm:w-[25px] md:h-[25px] md:w-[25px] lg:h-[35px] lg:w-[35px] mt-2 mr-2">
                 1
@@ -71,7 +71,7 @@ function Works() {
               </p>
             </div>
           </div>
-          <div className="mt-8 text-left">
+          <div className="mt-2 sm:mt-8 md:mt-8 lg:mt-8 text-left">
             <a
               href="#"
               className="font-nunito text-[20px] font-normal leading-6 bg-[#3377ff] py-4 px-10 w-max text-white text-center inline-block rounded-[5px]"

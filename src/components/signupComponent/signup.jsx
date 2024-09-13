@@ -1,14 +1,14 @@
 import React from "react";
 import user from "../../assets/user.png";
 import left from "../../assets/left.png";
-import "./signup.css";
+// import "./signup.css";
 import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
     <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4] ">
       <div className="flex justify-center relative">
-        <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
+        <div className="self-start cursor-pointer absolute top-[1%] left-[-21%] sm:left-[1%] md:left-[1%] lg:left-[1%] h-12 w-12">
           {/* <button className="absolue signup-button w-%]">&</button> */}
           {/* <img
             src={left}
@@ -34,22 +34,19 @@ function SignUp() {
           </Link>
         </div>
 
-        <div className="font-nunito text-4xl font-bold leading-[50.4px] tracking-tighter text-center">
-          <h4 className="footer-headr">
-            What do you want to <br />
-            sign up as?
-          </h4>
+        <div className="font-nunito text-2xl sm:text-4xl md:text-4xl lg:text-4xl font-bold leading-[50.4px] tracking-tighter text-center">
+          <h4 className="">What do you want to sign up as?</h4>
         </div>
       </div>
-      <div className="flex gap-4 items-center justify-center">
-        <div className="w-[20rem] bg-white flex flex-col items-center gap-6 p-8 rounded-[10px] shadow-[1px_0_1px_rgba(0,0,0,0.45),_-1px_0_1px_rgba(0,0,0,0.45),_0_3px_2px_rgba(0,0,0,0.35)]">
+      <div className="flex gap-4 items-center justify-center flex-col sm:flex-row md:flex-row lg:flex-row">
+        <div className="md:w-[18rem] lg:w-[20rem] bg-white flex flex-col items-center gap-6 p-8 rounded-[10px] shadow-[1px_0_1px_rgba(0,0,0,0.45),_-1px_0_1px_rgba(0,0,0,0.45),_0_3px_2px_rgba(0,0,0,0.35)]">
           <div>
             <img src={user} alt="User Profile" />
           </div>
           <h6 className="font-nunito text-[30px] font-semibold leading-[42px] tracking-tighter text-center">
             User
           </h6>
-          <p className="font-nunito text-base font-normal leading-[22.4px] tracking-tighter text-center w-[80%]">
+          <p className="font-nunito text-base font-normal leading-[22.4px] tracking-tighter text-center w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%]">
             As a user, you will be able to lorem ipsussss asasmlo lorem ipsum
           </p>
           <Link
@@ -59,14 +56,14 @@ function SignUp() {
             Sign up
           </Link>
         </div>
-        <div className="w-[20rem] bg-white flex flex-col items-center gap-6 p-8 rounded-[10px] shadow-[1px_0_1px_rgba(0,0,0,0.45),_-1px_0_1px_rgba(0,0,0,0.45),_0_3px_2px_rgba(0,0,0,0.35)]">
+        <div className="md:w-[18rem] lg:w-[20rem] bg-white flex flex-col items-center gap-6 p-8 rounded-[10px] shadow-[1px_0_1px_rgba(0,0,0,0.45),_-1px_0_1px_rgba(0,0,0,0.45),_0_3px_2px_rgba(0,0,0,0.35)]">
           <div>
             <img src={user} alt="User Profile" />
           </div>
           <h6 className="font-nunito text-[30px] font-semibold leading-[42px] tracking-tighter text-center">
             Service Provider
           </h6>
-          <p className="font-nunito text-base font-normal leading-[22.4px] tracking-tighter text-center w-[80%] ">
+          <p className="font-nunito text-base font-normal leading-[22.4px] tracking-tighter text-center w-[100%] sm:w-[90%] md:w-[80%] lg:w-[80%] ">
             As a service provider, you will be able to lorem ipsumlo lorem ipsum
           </p>
           <Link

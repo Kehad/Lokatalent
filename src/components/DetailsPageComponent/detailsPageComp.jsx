@@ -1,11 +1,11 @@
-import "./detailsPageComp.css";
+// import "./detailsPageComp.css";
 import { Link } from "react-router-dom";
 
 function DetailsPageComp() {
   return (
-    <div className="px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4]">
+    <div className="sm:px-[4rem] lg:px-[5rem] md:px-[6rem] lg:px-[7rem] py-12 flex justify-cnter flex-col items-cener gap-12 bg-[#FAF8F4]">
       <div className="flex justify-center relative">
-        <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">         
+        <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
           <Link to="/signup">
             <svg
               width="35"
@@ -37,40 +37,64 @@ function DetailsPageComp() {
       </div>
       <div className="flex gap-4 items-center justify-center">
         <div>
-          <form className="form">
-            <div className="form-div">
+          <form className="flex flex-row flex-wrap justify-center gap-[3rem] text-start items-start">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>Name</label>
-              <input type="text" className="input" />
+              <input
+                type="text"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
-            <div className="form-div">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>Phone number</label>
-              <input type="text" className="input placeholder" />
+              <input
+                type="text"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem] placeholder"
+              />
             </div>
-            <div className="form-div">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>Email Address</label>
-              <input type="email" className="input" />
+              <input
+                type="email"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
-            <div className="form-div">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>City</label>
-              <input type="text" className="input" />
+              <input
+                type="text"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
-            <div className="form-div">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>Address</label>
-              <input type="text" className="input" />
+              <input
+                type="text"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
-            <div className="form-div">
+            <div className="flex flex-col gap-[0.5rem]">
               <label>Password</label>
-              <input type="password" className="input" />
+              <input
+                type="password"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
-            <div className="form-div self-center justify-items-start justify-self-start">
+            <div className="flex flex-col gap-[0.5rem] self-start justify-items-start justify-self-start">
               <label>Confirm Password</label>
-              <input type="password" className="input" />
+              <input
+                type="password"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+              />
             </div>
           </form>
         </div>
       </div>
       <div className="flex justify-center">
-        <Link to="./email" className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[35rem] rounded h-12 flex items-center justify-center">
+        <Link
+          to="./email"
+          className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[35rem] rounded h-12 flex items-center justify-center"
+        >
           Submit
         </Link>
       </div>

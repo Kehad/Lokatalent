@@ -10,12 +10,12 @@ function Footer() {
   return (
     <div className="bg-[#3377ff] px-[2rem] sm:px-[3rem] md:px-[4rem] px-[5rem] text-white flex flex-col gap-8 py-20">
       <div>
-        <div className="  ">
-          <div className="flex flex-rol justify-between items-center">
+        <div className="">
+          <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between gap-2 sm:gap-0 md:gap-0 lg:gap-0 items-start sm:items-center md:items-center lg:items-center">
             <p>Lokatalent</p>
             <div>
               <nav>
-                <ul className="flex list-none md:gap-[40px] lg:gap-[110px]">
+                <ul className="flex list-none gap-[20px] sm:gap-[35px] md:gap-[40px] lg:gap-[110px]">
                   <li className="">
                     <Link to="/login">Terms & Conditions</Link>
                   </li>
@@ -33,12 +33,12 @@ function Footer() {
       </div>
       <div className="w-[100%] h-[0.5px] bg-white"></div>
       <div>
-        <div className="flex md:gap-4 lg:gap-8">
+        <div className="flex gap-4 md:gap-4 lg:gap-8">
           <img src={ig} alt="Instagram" />
           <img src={x} alt="X" />
           <img src={fb} alt="Facebook" />
         </div>
-        <p className="font-nunito md:text-normal lg:text-2xl font-extrabold tracking-tighter text-right uppercase">
+        <p className="font-nunito md:text-normal lg:text-2xl font-extrabold tracking-tighter mt-4 sm:mt-4 md:mt-4 lg:mt-0 text-left sm:text-right md:text-right lg:text-right uppercase">
           Have any questions? reach out to us
         </p>
         <div className="flex justify-between flex-col-reverse sm:flex-row md:flex-row lg:flew-row gap-4 sm:gap-0 md:gap-0 lg:gap-0 mt-12">
