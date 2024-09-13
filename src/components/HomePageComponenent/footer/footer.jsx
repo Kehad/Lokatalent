@@ -8,7 +8,7 @@ import fb from "../../../assets/fb.png";
 function Footer() {
   //px-[7rem]
   return (
-    <div className="bg-[#3377ff] px-[2rem] sm:px-[3rem] md:px-[4rem] px-[5rem] text-white flex flex-col gap-8 py-20">
+    <div className="bg-[#3377ff] px-[2rem] sm:px-[3rem] md:px-[4rem] lg:px-[5rem] text-white flex flex-col gap-8 py-20">
       <div>
         <div className="">
           <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between gap-2 sm:gap-0 md:gap-0 lg:gap-0 items-start sm:items-center md:items-center lg:items-center">
