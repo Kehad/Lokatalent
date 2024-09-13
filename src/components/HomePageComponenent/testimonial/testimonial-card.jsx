@@ -28,10 +28,10 @@ function Testimonialcard() {
         >
           Apply as a Talent
         </a> */}
-        <button className="font-nunito text-base sm:text-xl md:text-xl lg:text-xl !text-[#3377FF] font-normal leading-6 bg-white border-2 border-white w-[100px] h-[30px] sm:w-[160px] sm:h-[60px] md:w-[200px] md:h-[60px] lg:w-[250px] lg:h-[70px] rounded">
+        <button className="font-nunito text-base sm:text-xl md:text-xl lg:text-xl !text-[#3377FF] font-normal leading-6 bg-white border-2 border-white w-[100px] h-[40px] sm:w-[160px] sm:h-[60px] md:w-[200px] md:h-[60px] lg:w-[250px] lg:h-[70px] rounded">
           Apply here
         </button>
-        <button className="font-nunito text-base sm:text-xl md:text-xl lg:text-xl text-white font-normal leading-6 border-2 border-white w-[150px] h-[30px] sm:w-[200px] sm:h-[60px] md:w-[200px] md:h-[60px] lg:w-[250px] lg:h-[70px] rounded">
+        <button className="font-nunito text-base sm:text-xl md:text-xl lg:text-xl text-white font-normal leading-6 border-2 border-white w-[150px] h-[40px] sm:w-[200px] sm:h-[60px] md:w-[200px] md:h-[60px] lg:w-[250px] lg:h-[70px] rounded">
           Apply as a talent
         </button>
       </div>

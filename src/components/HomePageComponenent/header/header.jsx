@@ -2,7 +2,7 @@ import React from "react";
 import Image1 from "../../../assets/image-31.png";
 import Image2 from "../../../assets/image-32.png";
 import Image3 from "../../../assets/image-30.png";
-import DropDownElement from "./boot";
+import DropDownElement from "./DropDownElement";
 
 function Header() { 
   return (
@@ -40,9 +40,9 @@ function Header() {
           <img className="w-[50%]" src={Image2} alt="New Image" />
           <img className="w-[50%]" src={Image3} alt="New Image" />
         </div>
-        <div className="bg-[#fff] w-[112px] h-[56px] absolute text-black flex items-center justify-center rounded top-[55%] opacity-[88%] right-[30%]">
+        <div className="bg-[#fff] w-[102px] h-[46px] sm:w-[112px] sm:h-[56px] md:w-[112px] md:h-[56px] lg:w-[112px] lg:h-[56px] absolute text-black flex items-center justify-center rounded top-[55%] opacity-[88%] right-[30%]">
           <div className="flex items-center justify-center text-center flex-col pr-[10px]">
-            <p className="text-[16px] leading-[25px] font-bold">
+            <p className="text-[12px] leading-[20px] sm:text-[16px] sm:leading-[25px] md:text-[16px] md:leading-[25px] lg:text-[16px] lg:leading-[25px] font-bold">
               15<span className="text-green-500">+</span>
             </p>
             <p className="text-[10px] leading-[10px] text-[#525252]">
@@ -51,7 +51,7 @@ function Header() {
           </div>
           <div className="h-[40px] bg-[#000] w-[1px]"></div>
           <div className="flex items-center justify-center text-center flex-col pl-[10px]">
-            <p className="text-[16px] leading-[25px] font-bold">
+            <p className="text-[12px] leading-[20px] sm:text-[16px] sm:leading-[25px] md:text-[16px] md:leading-[25px] lg:text-[16px] lg:leading-[25px] font-bold">
               100<span className="text-green-500">+</span>
             </p>
             <p className="text-[10px] leading-[10px] text-[#525252]">Users</p>

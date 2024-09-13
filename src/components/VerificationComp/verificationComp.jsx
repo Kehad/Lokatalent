@@ -44,7 +44,7 @@ function VerificationComp({ content }) {
         </div>
         <div className="flex gap-4 items-center justify-center">
           <div>
-            <form className="flex gap-4">
+            <form className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4">
               <div className="">
                 <input
                   type="number"

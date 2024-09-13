@@ -14,7 +14,7 @@ function Works() {
             src={lady}
             alt="A lady with a phone"
           />
-          <div className="bg-black text-white flex items-center justify-around w-max md:p-2 lg:p-4 rounded-[10px] absolute bottom-[0%] left-[-1%] sm:bottom-[12%] sm:left-[-1%] bottom-[15%] left-[-15%]">
+          <div className="bg-black text-white flex items-center justify-around w-max md:p-2 lg:p-4 rounded-[10px] absolute bottom-[0%] left-[5%] sm:bottom-[12%] sm:left-[-1%] bottom-[15%] left-[-15%]">
             <div className="bg-[#2a4af480] flex items-center justify-center sm:p-1 md:p-1 lg:p-2 rounded-full mr-2">
               <img src={layers} alt="layers" />
             </div>

@@ -10,7 +10,7 @@ function VerifiedPage({ content }) {
     <>
       <div className="px-[2rem] sm:px-[4rem] md:px-[5.5rem] lg:px-[7rem] h-screen py-12 flex justify-center flex-col items-cener gap-12 bg-[#FAF8F4]">
         <div className="flex flex-col justify-center relative">
-          <div className="self-start cursor-pointer absolute top-[1%] left-[1%] h-12 w-12">
+          <div className="self-start cursor-pointer absolute top-[-50%] sm:top-[1%] md:top-[1%] lg:top-[1%] left-[1%] h-12 w-12">
             <Link
               to={`/signup/signup-details/${content.halfName.toLowerCase()}`}
             >
@@ -37,7 +37,7 @@ function VerifiedPage({ content }) {
           </div>
           <div>
             <h4 className="font-nunito text-4xl font-bold leading-[50.4px] tracking-tighter text-center">
-              Email Verified
+              {content.halfName} Verified
             </h4>
             <p className="font-nunito text-xl text-center">
               Lorem ipsum lore et itat ipsum et itat ipsumet itat ipsumet itat

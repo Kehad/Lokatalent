@@ -135,7 +135,7 @@ function Nav() {
                       // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
                       className={({ isActive }) =>
                         isActive
-                          ? "text-red-500 hover:underline underline-offset-8 transition ease-in-out delay-150"
+                          ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
                           : "hover:underline underline-offset-8 transition ease-in-out delay-150"
                       }
                     >
@@ -148,7 +148,7 @@ function Nav() {
                       // className="hover:underline underline-offset-8 transition transition-all transition ease-in-out delay-150"
                       className={({ isActive }) =>
                         isActive
-                          ? "text-red-500 hover:underline underline-offset-8 transition ease-in-out delay-150"
+                          ? "underline underline-bold decoration-2 hover:underline underline-offset-8 transition ease-in-out delay-150"
                           : "hover:underline underline-offset-8 transition ease-in-out delay-150"
                       }
                     >
@@ -158,7 +158,12 @@ function Nav() {
                   <li>
                     <NavLink
                       to="/register"
-                      className="px-4 py-[10px] border-white border-2 rounded "
+                      
+                      className={({ isActive }) =>
+                        isActive
+                          ? "bg-white text-[#2659BF] decoration-2 px-4 py-[10px] border-white border-2 rounded"
+                          : "px-4 py-[10px] border-white border-2 rounded"
+                      }
                     >
                       Register as a talent
                     </NavLink>

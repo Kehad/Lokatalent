@@ -42,49 +42,49 @@ function DetailsPageComp() {
               <label>Name</label>
               <input
                 type="text"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem]">
               <label>Phone number</label>
               <input
                 type="text"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem] placeholder"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem] placeholder"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem]">
               <label>Email Address</label>
               <input
                 type="email"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem]">
               <label>City</label>
               <input
                 type="text"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem]">
               <label>Address</label>
               <input
                 type="text"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem]">
               <label>Password</label>
               <input
                 type="password"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
             <div className="flex flex-col gap-[0.5rem] self-start justify-items-start justify-self-start">
               <label>Confirm Password</label>
               <input
                 type="password"
-                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] rounded px-[1rem]"
+                className="w-[20rem] sm:w-[23rem] md:w-[25rem] lg:w-[25rem] bg-white h-[3rem] text-[#3377FF] rounded px-[1rem]"
               />
             </div>
           </form>
@@ -93,7 +93,7 @@ function DetailsPageComp() {
       <div className="flex justify-center">
         <Link
           to="./email"
-          className="font-nunito text-xl !text-[#fff] bg-[#3377FF] font-normal leading-6 w-[20rem] sm:w-[30rem] md:w-[32rem] lg:w-[35rem] rounded h-12 flex items-center justify-center"
+          className="font-nunito text-xl text-[#fff] bg-[#3377FF] font-normal leading-6 w-[20rem] sm:w-[30rem] md:w-[32rem] lg:w-[35rem] rounded h-12 flex items-center justify-center hover:text-[#3377FF] hover:bg-white hover:border-2 hover:border-[#3377ff] transition transition-all duration-[500ms]"
         >
           Submit
         </Link>
